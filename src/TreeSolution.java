@@ -1,6 +1,7 @@
-import com.hp.ds.BinaryTree;
-import com.hp.ps.BinaryTreeProblem;
-import com.hp.ps.TreeToDList;
+import com.ds.tree.BinaryTree;
+import com.ds.tree.BinaryTreePrinter;
+import com.ps.BinaryTreeProblem;
+import com.ps.TreeToDList;
 
 public class TreeSolution {
 
@@ -40,11 +41,11 @@ public class TreeSolution {
         //System.out.println(r1);
 
         BinaryTreeProblem treeProblem = new BinaryTreeProblem();
-        BinaryTree.printNode(r1);
+        BinaryTreePrinter.printNode(r1);
         treeProblem.printAllAncestors(r1, 3);
 
         treeProblem.mirrorOf(r1);
-        BinaryTree.printNode(r1);
+        BinaryTreePrinter.printNode(r1);
 
     }
 

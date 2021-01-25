@@ -1,4 +1,4 @@
-import com.hp.ps.StudentFriend;
+import com.ps.StudentFriend;
 
 import java.io.IOException;
 import java.util.ArrayList;
